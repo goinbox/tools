@@ -1,6 +1,11 @@
 #!/bin/bash
 
-goinboxDir=$GOPATH/src/github.com/goinbox
+curDir=`dirname $0`
+goinboxDir=$curDir/../
+if [ $# -eq 1 ]
+then
+    $goinboxDir=$1
+fi
 
 if [ ! -d $goinboxDir ]
 then
@@ -10,6 +15,7 @@ fi
 cd $goinboxDir
 
 boxList="
+bugle
 crypto
 ipquery
 goconsumer
@@ -29,6 +35,7 @@ inotify
 exception
 shell
 color
+gobox-demo
 "
 
 for box in $boxList
