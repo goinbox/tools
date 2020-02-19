@@ -35,7 +35,6 @@ inotify
 exception
 shell
 color
-gobox-demo
 "
 
 for box in $boxList
