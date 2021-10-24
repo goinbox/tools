@@ -32,7 +32,6 @@ encoding
 pool
 pidfile
 inotify
-goerror
 shell
 color
 "
