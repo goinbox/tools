@@ -17,8 +17,6 @@ cd $goinboxDir
 boxList="
 bugle
 crypto
-ipquery
-goconsumer
 gohttp
 mysql
 page
@@ -34,6 +32,7 @@ pidfile
 inotify
 shell
 color
+mq
 "
 
 for box in $boxList
