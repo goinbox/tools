@@ -33,6 +33,7 @@ inotify
 shell
 color
 mq
+taskflow
 "
 
 for box in $boxList
