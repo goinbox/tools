@@ -34,6 +34,8 @@ shell
 color
 mq
 taskflow
+pcontext
+router
 "
 
 for box in $boxList
