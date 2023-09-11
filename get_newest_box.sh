@@ -36,6 +36,7 @@ mq
 taskflow
 pcontext
 router
+ptrace
 "
 
 for box in $boxList
